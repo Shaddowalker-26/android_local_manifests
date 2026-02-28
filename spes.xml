@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="shaddowalker"
-        fetch="https://github.com/Shaddowalker-26/" />
+    <remote name="shaddowwalker"
+        fetch="https://github.com/Shaddowwalker-26/" />
 
     <remote name="gith"
         fetch="https://github.com/" />
+
     <remote name="gitlab"
-    fetch="https://gitlab.com/" />
+        fetch="https://gitlab.com/" />
 
     <!-- Device -->
     <project
         name="android_device_xiaomi_spes"
         path="device/xiaomi/spes"
-        remote="shaddowalker"
+        remote="shaddowwalker"
         revision="sixteen-local" />
 
-     <!-- Kernel -->
+    <!-- Kernel -->
     <project
         name="knyplaygrnd/android_device_xiaomi_spes-kernel"
         path="device/xiaomi/spes-kernel"
@@ -27,34 +28,38 @@
     <project
         name="android_vendor_xiaomi_spes"
         path="vendor/xiaomi/spes"
-        remote="shaddowalker"
+        remote="shaddowwalker"
         revision="sixteen-local" />
 
     <!-- Hardware -->
     <project
         name="android_hardware_xiaomi"
         path="hardware/xiaomi"
-        remote="shaddowalker"
+        remote="shaddowwalker"
         revision="sixteen-local" />
 
     <!-- XiaomiParts -->
     <project
         name="android_packages_apps_XiaomiParts"
         path="packages/apps/XiaomiParts"
-        remote="shaddowalker"
+        remote="shaddowwalker"
         revision="sixteen-local" />
 
-     <!-- Pixel Lockscreen Clocks -->
+    <!-- Remove upstream Settings -->
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+
+    <!-- Settings (clone apps) -->
+    <project
+        name="android_packages_apps_Settings"
+        path="packages/apps/Settings"
+        remote="shaddowwalker"
+        revision="lineage-23.2" />
+
+    <!-- Pixel Lockscreen Clocks -->
     <project
         name="pixelos-aosp/proprietary_vendor_pixel_clocks"
         path="vendor/pixelos/pixel-clocks"
         remote="gitlab"
         revision="sixteen-qpr2" />
 
-     <project
-    name="Shaddowalker-26/android_packages_apps_Settings"
-    path="packages/apps/Settings"
-    remote="github"
-    revision="lineage-23.2" />
 </manifest>
-
