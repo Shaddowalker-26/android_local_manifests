@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="shaddowwalker"
-        fetch="https://github.com/Shaddowwalker-26/" />
-
-    <remote name="gith"
-        fetch="https://github.com/" />
-
     <remote name="gitlab"
         fetch="https://gitlab.com/" />
 
     <!-- Device -->
     <project
-        name="android_device_xiaomi_spes"
+        name="Shaddowalker-26/android_device_xiaomi_spes"
         path="device/xiaomi/spes"
-        remote="shaddowwalker"
         revision="sixteen-local" />
-
-    <!-- Kernel -->
-    <project
-        name="knyplaygrnd/android_device_xiaomi_spes-kernel"
-        path="device/xiaomi/spes-kernel"
-        remote="gith"
-        revision="sixteen" />
 
     <!-- Vendor -->
     <project
-        name="android_vendor_xiaomi_spes"
+        name="Shaddowalker-26/android_vendor_xiaomi_spes"
         path="vendor/xiaomi/spes"
-        remote="shaddowwalker"
         revision="sixteen-local" />
 
     <!-- Hardware -->
     <project
-        name="android_hardware_xiaomi"
+        name="Shaddowalker-26/android_hardware_xiaomi"
         path="hardware/xiaomi"
-        remote="shaddowwalker"
         revision="sixteen-local" />
 
     <!-- XiaomiParts -->
     <project
-        name="android_packages_apps_XiaomiParts"
+        name="Shaddowalker-26/android_packages_apps_XiaomiParts"
         path="packages/apps/XiaomiParts"
-        remote="shaddowwalker"
         revision="sixteen-local" />
 
-    <!-- Remove upstream Settings -->
+    <!-- Replace upstream Settings -->
     <remove-project name="LineageOS/android_packages_apps_Settings" />
 
-    <!-- Settings (clone apps) -->
     <project
-        name="android_packages_apps_Settings"
+        name="Shaddowalker-26/android_packages_apps_Settings"
         path="packages/apps/Settings"
-        remote="shaddowwalker"
+        revision="lineage-23.2" />
+
+    <!-- Replace frameworks/base -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+
+    <project
+        name="Shaddowalker-26/android_frameworks_base"
+        path="frameworks/base"
         revision="lineage-23.2" />
 
     <!-- Pixel Lockscreen Clocks -->
