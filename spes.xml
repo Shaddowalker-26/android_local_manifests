@@ -56,7 +56,7 @@
     <project 
         name="Shaddowalker-26/android_vendor_lineage"
              path="vendor/lineage"
-             revision="my-vendor-fixes"
+             revision="my-vendor-fixes" />
 
     <!-- Pixel Lockscreen Clocks -->
     <project
