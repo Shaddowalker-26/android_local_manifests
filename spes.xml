@@ -49,6 +49,13 @@
         name="Shaddowalker-26/android_frameworks_base"
         path="frameworks/base"
         revision="lineage-23.2" />
+    
+    <!-- Replace packages/apps/Launcher3 -->
+    <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+
+  <project name="Shaddowalker-26/android_packages_apps_Launcher3" 
+           path="packages/apps/Launcher3" 
+           revision="lineage-23.2" />
 
    <!--Replace vendor -->
     <remove-project name="LineageOS/android_vendor_lineage" />
