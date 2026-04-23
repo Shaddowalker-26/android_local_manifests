@@ -72,4 +72,10 @@
         remote="gitlab"
         revision="sixteen-qpr2" />
 
+    <!--Omnijaw Weather -->
+    <project
+        name="shaddowalker-26/packages_services_Omnijaw"
+        path="packages/services/OmniJaws"
+        revision="15" />
+
 </manifest>
