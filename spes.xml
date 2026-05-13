@@ -81,7 +81,7 @@
     <!--SPES OTA -->
     <project
         name="Shaddowalker-26/Spes-ota"
-        path="../spes-ota"
+        path="spes-ota"
         revision="main" />
 
 
