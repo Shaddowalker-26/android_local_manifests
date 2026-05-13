@@ -20,7 +20,7 @@
     <project name="knyplaygrnd/android_device_xiaomi_spes-kernel"
              path="device/xiaomi/spes-kernel"
              remote="github"
-             revision="sixteen" />
+             revision="sixteen-qpr2" />
 
     <!-- Hardware -->
     <project
