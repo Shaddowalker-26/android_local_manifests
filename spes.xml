@@ -78,4 +78,11 @@
         path="packages/services/OmniJaws"
         revision="16.0" />
 
+    <!--SPES OTA -->
+    <project
+        name="Shaddowalker-26/Spes-ota"
+        path="../spes-ota"
+        revision="main" />
+
+
 </manifest>
