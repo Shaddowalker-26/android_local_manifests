@@ -8,7 +8,7 @@
     <project
         name="Shaddowalker-26/android_device_xiaomi_spes"
         path="device/xiaomi/spes"
-        revision="16-qpr2" />
+        revision="sixteen-qpr2" />
 
     <!-- Vendor -->
     <project
@@ -63,7 +63,7 @@
     <project 
         name="Shaddowalker-26/android_vendor_lineage"
              path="vendor/lineage"
-             revision="my-vendor-fixes" />
+             revision="lineage-23.2" />
 
     <!-- Pixel Lockscreen Clocks -->
     <project
@@ -74,7 +74,7 @@
 
     <!--Omnijaw Weather -->
     <project
-        name="shaddowalker-26/packages_services_Omnijaw"
+        name="shaddowalker-26/android_packages_services_Omnijaws"
         path="packages/services/OmniJaws"
         revision="16.0" />
 
