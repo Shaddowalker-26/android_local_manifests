@@ -38,7 +38,6 @@
     <project
     name="Shaddowalker-26/android-signing-keys"
     path="vendor/lineage-priv/keys"
-    remote="github"
     revision="main" />
     
     <!-- Replace upstream Settings -->
