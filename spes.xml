@@ -3,6 +3,10 @@
 
     <remote name="gitlab"
         fetch="https://gitlab.com/" />
+    
+    <remote name="github-private"
+        fetch="git@github.com:" />
+    
 
     <!-- Device -->
     <project
@@ -17,10 +21,9 @@
         revision="sixteen-local" />
 
     <!-- Kernel -->
-    <project name="knyplaygrnd/android_device_xiaomi_spes-kernel"
+    <project name="Shaddowalker-26/Prebuilt_kernel_Lineage"
              path="device/xiaomi/spes-kernel"
-             remote="github"
-             revision="sixteen-qpr2" />
+             revision="main" />
 
     <!-- Hardware -->
     <project
@@ -38,6 +41,7 @@
     <project
     name="Shaddowalker-26/android-signing-keys"
     path="vendor/lineage-priv/keys"
+    remote="github-private"
     revision="main" />
     
     <!-- Replace upstream Settings -->
