@@ -37,12 +37,6 @@
         path="packages/apps/XiaomiParts"
         revision="sixteen-local" />
      
-    <!--keys-->
-    <project
-    name="Shaddowalker-26/android-signing-keys"
-    path="vendor/lineage-priv/keys"
-    remote="github-private"
-    revision="main" />
     
     <!-- Replace upstream Settings -->
     <remove-project name="LineageOS/android_packages_apps_Settings" />
